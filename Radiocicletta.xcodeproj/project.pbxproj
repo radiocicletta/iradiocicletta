@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E859918E1424AC62008E9BC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E859918D1424AC62008E9BC7 /* UIKit.framework */; };
+		E85991921424AC62008E9BC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85991911424AC62008E9BC7 /* CoreGraphics.framework */; };
+		E85991981424AC62008E9BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E85991961424AC62008E9BC7 /* InfoPlist.strings */; };
+		E859919B1424AC62008E9BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E859919A1424AC62008E9BC7 /* main.m */; };
+		E859919E1424AC62008E9BC7 /* RadiociclettaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E859919D1424AC62008E9BC7 /* RadiociclettaAppDelegate.m */; };
+		E85991A11424AC62008E9BC7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E859919F1424AC62008E9BC7 /* MainWindow.xib */; };
+		E85991A91424ADAD008E9BC7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85991A81424ADAD008E9BC7 /* MenuViewController.m */; };
+		E85991AF1424CB57008E9BC7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85991AE1424CB57008E9BC7 /* MediaPlayer.framework */; };
+		E8C5D029142564730045FA7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C5D028142564730045FA7C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E85991891424AC62008E9BC7 /* Radiocicletta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radiocicletta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E859918D1424AC62008E9BC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E85991911424AC62008E9BC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E85991951424AC62008E9BC7 /* Radiocicletta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Radiocicletta-Info.plist"; sourceTree = "<group>"; };
+		E85991971424AC62008E9BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E85991991424AC62008E9BC7 /* Radiocicletta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Radiocicletta-Prefix.pch"; sourceTree = "<group>"; };
+		E859919A1424AC62008E9BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E859919C1424AC62008E9BC7 /* RadiociclettaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiociclettaAppDelegate.h; sourceTree = "<group>"; };
+		E859919D1424AC62008E9BC7 /* RadiociclettaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiociclettaAppDelegate.m; sourceTree = "<group>"; };
+		E85991A01424AC62008E9BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E85991A71424ADAD008E9BC7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E85991A81424ADAD008E9BC7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E85991AE1424CB57008E9BC7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E8C5D028142564730045FA7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E85991861424AC62008E9BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C5D029142564730045FA7C /* Foundation.framework in Frameworks */,
+				E85991AF1424CB57008E9BC7 /* MediaPlayer.framework in Frameworks */,
+				E859918E1424AC62008E9BC7 /* UIKit.framework in Frameworks */,
+				E85991921424AC62008E9BC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E859917E1424AC62008E9BC7 = {
+			isa = PBXGroup;
+			children = (
+				E85991931424AC62008E9BC7 /* Radiocicletta */,
+				E859918C1424AC62008E9BC7 /* Frameworks */,
+				E859918A1424AC62008E9BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E859918A1424AC62008E9BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85991891424AC62008E9BC7 /* Radiocicletta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E859918C1424AC62008E9BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C5D028142564730045FA7C /* Foundation.framework */,
+				E85991AE1424CB57008E9BC7 /* MediaPlayer.framework */,
+				E859918D1424AC62008E9BC7 /* UIKit.framework */,
+				E85991911424AC62008E9BC7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E85991931424AC62008E9BC7 /* Radiocicletta */ = {
+			isa = PBXGroup;
+			children = (
+				E859919C1424AC62008E9BC7 /* RadiociclettaAppDelegate.h */,
+				E859919D1424AC62008E9BC7 /* RadiociclettaAppDelegate.m */,
+				E859919F1424AC62008E9BC7 /* MainWindow.xib */,
+				E85991941424AC62008E9BC7 /* Supporting Files */,
+				E85991A71424ADAD008E9BC7 /* MenuViewController.h */,
+				E85991A81424ADAD008E9BC7 /* MenuViewController.m */,
+			);
+			path = Radiocicletta;
+			sourceTree = "<group>";
+		};
+		E85991941424AC62008E9BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85991951424AC62008E9BC7 /* Radiocicletta-Info.plist */,
+				E85991961424AC62008E9BC7 /* InfoPlist.strings */,
+				E85991991424AC62008E9BC7 /* Radiocicletta-Prefix.pch */,
+				E859919A1424AC62008E9BC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E85991881424AC62008E9BC7 /* Radiocicletta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85991A41424AC62008E9BC7 /* Build configuration list for PBXNativeTarget "Radiocicletta" */;
+			buildPhases = (
+				E85991851424AC62008E9BC7 /* Sources */,
+				E85991861424AC62008E9BC7 /* Frameworks */,
+				E85991871424AC62008E9BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radiocicletta;
+			productName = Radiocicletta;
+			productReference = E85991891424AC62008E9BC7 /* Radiocicletta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85991801424AC62008E9BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Black Sheep Lab";
+			};
+			buildConfigurationList = E85991831424AC62008E9BC7 /* Build configuration list for PBXProject "Radiocicletta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E859917E1424AC62008E9BC7;
+			productRefGroup = E859918A1424AC62008E9BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E85991881424AC62008E9BC7 /* Radiocicletta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E85991871424AC62008E9BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85991981424AC62008E9BC7 /* InfoPlist.strings in Resources */,
+				E85991A11424AC62008E9BC7 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E85991851424AC62008E9BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E859919B1424AC62008E9BC7 /* main.m in Sources */,
+				E859919E1424AC62008E9BC7 /* RadiociclettaAppDelegate.m in Sources */,
+				E85991A91424ADAD008E9BC7 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E85991961424AC62008E9BC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85991971424AC62008E9BC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E859919F1424AC62008E9BC7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85991A01424AC62008E9BC7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E85991A21424AC62008E9BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E85991A31424AC62008E9BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E85991A51424AC62008E9BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Radiocicletta/Radiocicletta-Prefix.pch";
+				INFOPLIST_FILE = "Radiocicletta/Radiocicletta-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E85991A61424AC62008E9BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Radiocicletta/Radiocicletta-Prefix.pch";
+				INFOPLIST_FILE = "Radiocicletta/Radiocicletta-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E85991831424AC62008E9BC7 /* Build configuration list for PBXProject "Radiocicletta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85991A21424AC62008E9BC7 /* Debug */,
+				E85991A31424AC62008E9BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85991A41424AC62008E9BC7 /* Build configuration list for PBXNativeTarget "Radiocicletta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85991A51424AC62008E9BC7 /* Debug */,
+				E85991A61424AC62008E9BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85991801424AC62008E9BC7 /* Project object */;
+}
